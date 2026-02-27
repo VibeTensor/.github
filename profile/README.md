@@ -18,10 +18,10 @@ privacy-first tools across career intelligence, developer productivity, and AI a
 
 [![Website](https://img.shields.io/badge/Website-vibetensor.com-18bcf1?style=flat-square&logo=googlechrome&logoColor=white)](https://vibetensor.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-VibeTensor-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/company/vibetensor)
-[![X](https://img.shields.io/badge/X-@vibetensor-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/vibetensor)
+[![X](https://img.shields.io/badge/X-vibetensor-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/vibetensor)
 [![Instagram](https://img.shields.io/badge/Instagram-@vibetensor-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/vibetensor)
 [![npm](https://img.shields.io/badge/npm-@vibetensor-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/org/vibetensor)
-[![PyPI](https://img.shields.io/badge/PyPI-vibetensor-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/user/vibetensor/)
+[![PyPI](https://img.shields.io/badge/PyPI-attestix-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/attestix/)
 [![Crunchbase](https://img.shields.io/badge/Crunchbase-VibeTensor-0288D1?style=flat-square&logo=crunchbase&logoColor=white)](https://www.crunchbase.com/organization/vibetensor)
 
 ---
