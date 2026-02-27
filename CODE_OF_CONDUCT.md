@@ -21,24 +21,54 @@ Examples of unacceptable behavior:
 - The use of sexualized language or imagery, and sexual attention or advances of any kind
 - Trolling, insulting or derogatory comments, and personal or political attacks
 - Public or private harassment
-- Publishing others' private information without their explicit permission
+- Publishing others' private information, such as a physical or email address, without their explicit permission
 - Other conduct which could reasonably be considered inappropriate in a professional setting
+
+## Enforcement Responsibilities
+
+Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+
+## Scope
+
+This Code of Conduct applies within all community spaces, including GitHub repositories, discussions, issues, pull requests, and any other VibeTensor-managed spaces. It also applies when an individual is officially representing the community in public spaces.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at **info@vibetensor.com**. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at **info@vibetensor.com**.
 
-### Enforcement Guidelines
+All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
-1. **Correction** - Private written warning for unprofessional behavior
-2. **Warning** - Warning with consequences for continued behavior
-3. **Temporary Ban** - Temporary ban from community interaction
-4. **Permanent Ban** - Permanent ban for pattern of violations
+## Enforcement Guidelines
+
+### 1. Correction
+
+**Community Impact:** Use of inappropriate language or other behavior deemed unprofessional.
+
+**Consequence:** A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate.
+
+### 2. Warning
+
+**Community Impact:** A violation through a single incident or series of actions.
+
+**Consequence:** A warning with consequences for continued behavior. No interaction with the people involved for a specified period of time. Violating these terms may lead to a temporary or permanent ban.
+
+### 3. Temporary Ban
+
+**Community Impact:** A serious violation of community standards.
+
+**Consequence:** A temporary ban from any sort of interaction or public communication with the community for a specified period of time.
+
+### 4. Permanent Ban
+
+**Community Impact:** Demonstrating a pattern of violation of community standards.
+
+**Consequence:** A permanent ban from any sort of public interaction within the community.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/), version 2.1.
 
 ---
 
-**VibeTensor Private Limited** | info@vibetensor.com
+**VibeTensor Private Limited**
+Contact: info@vibetensor.com

@@ -2,41 +2,112 @@ name: Bug Report
 description: Report a bug or unexpected behavior
 title: "[Bug]: "
 labels: ["bug", "triage"]
+assignees: []
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please fill out the sections below so we can reproduce and fix the issue.
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched existing issues and confirmed this is not a duplicate.
+          required: true
+
   - type: textarea
     id: description
     attributes:
       label: Description
       description: A clear description of the bug.
+      placeholder: What happened?
     validations:
       required: true
+
   - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the behavior.
       placeholder: |
         1. Go to '...'
         2. Click on '...'
-        3. See error
+        3. Scroll down to '...'
+        4. See error
     validations:
       required: true
+
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
+      description: What did you expect to happen?
     validations:
       required: true
-  - type: input
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: dropdown
     id: product
     attributes:
       label: Product
-      placeholder: "e.g., VibeMCP, Attestix, IssueVista"
+      description: Which VibeTensor product is this about?
+      options:
+        - VibeMCP
+        - Attestix
+        - IssueVista
+        - UpdataMind
+        - VibeTensor Website
+        - Other
     validations:
       required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Critical - Application crashes or data loss
+        - High - Major feature is broken
+        - Medium - Feature works but with issues
+        - Low - Minor inconvenience or cosmetic issue
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version are you running?
+      placeholder: "e.g., 1.2.0"
+    validations:
+      required: false
+
   - type: textarea
     id: environment
     attributes:
       label: Environment
-      placeholder: "OS, Node/Python version, browser"
+      description: OS, Node/Python version, browser, etc.
+      placeholder: |
+        - OS: Windows 11 / macOS 15 / Ubuntu 24.04
+        - Node: 20.x
+        - Browser: Chrome 120
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+      description: Paste any relevant error logs or attach screenshots.
     validations:
       required: false

@@ -2,30 +2,77 @@ name: Feature Request
 description: Suggest a new feature or improvement
 title: "[Feature]: "
 labels: ["enhancement"]
+assignees: []
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature. Help us understand what you need and why.
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched existing issues and confirmed this is not a duplicate.
+          required: true
+
   - type: textarea
     id: problem
     attributes:
       label: Problem Statement
-      description: What problem does this feature solve?
+      description: What problem does this feature solve? What pain point are you experiencing?
+      placeholder: I'm always frustrated when...
     validations:
       required: true
+
   - type: textarea
     id: solution
     attributes:
       label: Proposed Solution
+      description: Describe the feature or change you'd like to see.
     validations:
       required: true
-  - type: input
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+    validations:
+      required: false
+
+  - type: dropdown
     id: product
     attributes:
       label: Product
-      placeholder: "e.g., VibeMCP, Attestix, IssueVista"
+      description: Which VibeTensor product is this for?
+      options:
+        - VibeMCP
+        - Attestix
+        - IssueVista
+        - UpdataMind
+        - VibeTensor Website
+        - Other
     validations:
       required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: How many users would benefit from this feature?
+      options:
+        - High - Most users would benefit
+        - Medium - Many users would benefit
+        - Low - Niche use case
+    validations:
+      required: false
+
   - type: textarea
     id: context
     attributes:
       label: Additional Context
+      description: Any other context, screenshots, or examples that help explain the request.
     validations:
       required: false

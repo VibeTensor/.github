@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability
+    url: https://github.com/VibeTensor/.github/blob/main/SECURITY.md
+    about: Please report security vulnerabilities privately via email, not as public issues.
+  - name: General Questions
+    url: mailto:info@vibetensor.com
+    about: For general questions that are not bugs or feature requests.
+  - name: VibeTensor Website
+    url: https://vibetensor.com
+    about: Visit our website for documentation, product info, and contact details.
