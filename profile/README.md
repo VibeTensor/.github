@@ -1,90 +1,38 @@
-<div align="center">
+# VibeTensor
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://vibetensor.com/brand-logo-white.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://vibetensor.com/brand-logo-color.png">
-  <img alt="VibeTensor" src="https://vibetensor.com/brand-logo-white.png" height="48">
-</picture>
+We build developer tools for AI agent identity, verifiable records, and integrations.
 
-### Built to Trust.
+## Attestix
 
-We build AI products that help professionals make better decisions,<br>
-developers move faster, and AI agents operate transparently.
+[Attestix](https://github.com/VibeTensor/attestix) is an open-source Python toolkit for agent identities, signed credentials, capability delegation, provenance records, and offline verification. It exposes library, CLI, MCP, and REST interfaces.
 
-VibeTensor is a DPIIT-recognized AI product company from India, shipping<br>
-privacy-first tools across career intelligence, developer productivity, and AI agent infrastructure.
+Attestix produces evidence for governance workflows. A signature establishes integrity and key control within the selected verification profile; it does not establish issuer trust, authorization, legal conformity, certification, or the truth of a claim. Operators must assess deployment security, key custody, revocation, replay protection, and applicable obligations separately.
 
-<br>
+The verifier repositories implement a shared Attestix format with language-specific validation boundaries. Read each repository's verification and release notes before adopting it; merged source changes do not imply that every registry package has been republished.
 
-[![Website](https://img.shields.io/badge/Website-vibetensor.com-18bcf1?style=flat-square&logo=googlechrome&logoColor=white)](https://vibetensor.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-VibeTensor-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/company/vibetensor)
-[![X](https://img.shields.io/badge/X-vibetensor-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/vibetensor)
-[![Instagram](https://img.shields.io/badge/Instagram-@vibetensor-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/vibetensor)
-[![npm](https://img.shields.io/badge/npm-@vibetensor-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/org/vibetensor)
-[![PyPI](https://img.shields.io/badge/PyPI-attestix-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/attestix/)
-[![Crunchbase](https://img.shields.io/badge/Crunchbase-VibeTensor-0288D1?style=flat-square&logo=crunchbase&logoColor=white)](https://www.crunchbase.com/organization/vibetensor)
+## Public repositories
 
----
+| Repository | Purpose |
+| --- | --- |
+| [attestix](https://github.com/VibeTensor/attestix) | Python identity, credential, delegation, provenance, and verification toolkit; includes documentation and website source. |
+| [attestix-js](https://github.com/VibeTensor/attestix-js) | JavaScript and TypeScript credential verifier. |
+| [attestix-go](https://github.com/VibeTensor/attestix-go) | Go credential and delegation verification helpers. |
+| [attestix-java](https://github.com/VibeTensor/attestix-java) | Java verifier using caller-selected trust inputs. |
+| [attestix-r](https://github.com/VibeTensor/attestix-r) | R verification and canonicalization helpers. |
+| [attestix-rs](https://github.com/VibeTensor/attestix-rs) | Rust verification and canonicalization helpers. |
+| [attestix-website](https://github.com/VibeTensor/attestix-website) | Separate Attestix website repository; check its README for its current role. |
+| [vibemcp](https://github.com/VibeTensor/vibemcp) | MCP integrations for Gmail and Microsoft 365. |
+| [IssueVista](https://github.com/VibeTensor/IssueVista) | Discover GitHub issues for open-source contribution. |
+| [.github](https://github.com/VibeTensor/.github) | Organization profile and community health files. |
 
-### Our Products
+This list covers public, non-archived repositories verified on 12 October 2026. Private repositories and their implementation details are outside this public profile. Repository licenses and package availability are stated in their own repositories.
 
-<table>
-  <tr>
-    <th>Product</th>
-    <th>What it does</th>
-    <th>Links</th>
-  </tr>
-  <tr>
-    <td><strong>UpdataMind</strong></td>
-    <td>AI-powered career intelligence. Resume analysis, skill gap mapping, and personalized career recommendations.</td>
-    <td><a href="https://updatamind.vibetensor.com/">Website</a></td>
-  </tr>
-  <tr>
-    <td><strong>Attestix</strong></td>
-    <td>Attestation infrastructure for AI agents. DID-based identity, W3C Verifiable Credentials, EU AI Act compliance, and reputation scoring.</td>
-    <td><a href="https://attestix.vibetensor.com/">Website</a> · <a href="https://github.com/VibeTensor/attestix">Repo</a></td>
-  </tr>
-  <tr>
-    <td><strong>VibeMCP</strong></td>
-    <td>Token-optimized unified MCP server for Gmail and Microsoft 365. 60% fewer tokens, 100% more power.</td>
-    <td><a href="https://www.npmjs.com/package/@vibetensor/vibemcp">npm</a> · <a href="https://github.com/VibeTensor/vibemcp">Repo</a></td>
-  </tr>
-  <tr>
-    <td><strong>IssueVista</strong></td>
-    <td>Find unassigned GitHub issues without PRs. Intelligent prioritization and contributor insights for open-source teams.</td>
-    <td><a href="https://issuevista.vibetensor.com/">Website</a> · <a href="https://github.com/VibeTensor/IssueVista">Repo</a></td>
-  </tr>
-</table>
+## Links
 
----
+- [Website](https://vibetensor.com)
+- [Attestix documentation](https://attestix.io/docs)
+- [Contributing guide](https://github.com/VibeTensor/.github/blob/main/CONTRIBUTING.md)
+- [Security policy](https://github.com/VibeTensor/.github/blob/main/SECURITY.md)
+- Contact: [info@vibetensor.com](mailto:info@vibetensor.com)
 
-### Get Started
-
-Browse our [open-source repositories](https://github.com/orgs/VibeTensor/repositories?type=public) · Read the [Contributing Guide](https://github.com/VibeTensor/.github/blob/main/CONTRIBUTING.md) · [Report an Issue](https://github.com/VibeTensor/.github/tree/main/.github/ISSUE_TEMPLATE) · [Security Policy](https://github.com/VibeTensor/.github/blob/main/SECURITY.md)
-
----
-
-### How We Build
-
-<table>
-  <tr>
-    <td align="center"><strong>Lean & Fast</strong><br><sub>Every model optimized for speed and cost.<br>No bloated infrastructure.</sub></td>
-    <td align="center"><strong>Your Data, Your Rules</strong><br><sub>DPDPA-compliant by design.<br>We never train on customer data.</sub></td>
-    <td align="center"><strong>Safe by Default</strong><br><sub>Built-in guardrails, bias testing,<br>and content filtering on every product.</sub></td>
-    <td align="center"><strong>Open by Choice</strong><br><sub>Built on MCP and open-source frameworks.<br>No vendor lock-in.</sub></td>
-  </tr>
-</table>
-
----
-
-### Tech We Work With
-
-`TypeScript` `Python` `React` `Next.js` `SvelteKit` `Astro` `Model Context Protocol` `LLMs` `RAG` `AWS` `Tailwind CSS` `Kubernetes`
-
----
-
-<sub><strong>VibeTensor Private Limited</strong> · CIN: U74909TS2025PTC197692 · DPIIT: DIPP206711 · Warangal, Telangana, India</sub>
-
-<sub>📧 info@vibetensor.com</sub>
-
-</div>
+VIBETENSOR PRIVATE LIMITED | CIN: U74909TS2025PTC197692
