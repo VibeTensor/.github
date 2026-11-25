@@ -27,6 +27,10 @@ The verifier repositories implement a shared Attestix format with language-speci
 
 This list covers public, non-archived repositories verified on 12 October 2026. Private repositories and their implementation details are outside this public profile. Repository licenses and package availability are stated in their own repositories.
 
+## Support
+
+Support ongoing maintenance of VibeTensor's public projects through [GitHub Sponsors](https://github.com/sponsors/VibeTensor).
+
 ## Links
 
 - [Website](https://vibetensor.com)
